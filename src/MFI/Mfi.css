@@ -1,0 +1,119 @@
+.login_page {
+  background-color: #14148d;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_card {
+  color: #14148d;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 4px 4px 2px #e5e5e5;
+}
+p {
+  margin: 0;
+}
+.card_para {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+.button_in {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background: #14148d;
+  color: #fff;
+  border: unset;
+}
+.button_up {
+  width: 200px;
+  height: 30px;
+  border-radius: 20px;
+  background: rgb(178, 175, 204);
+  color: #14148d;
+  border: unset;
+}
+.login_card_signin {
+  color: #14148d;
+  background-color: #fff;
+  width: 350px;
+  height: 350px;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 2px 4px 4px 2px #e5e5e5;
+}
+.login_card_signin_content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: black;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+.button_login {
+  height: 30px;
+  border-radius: 20px;
+  background: #14148d;
+  color: #fff;
+  border: unset;
+  margin-bottom: 10px;
+}
+.button_with_otp {
+  height: 30px;
+  border-radius: 20px;
+  background: rgb(178, 175, 204);
+  color: #14148d;
+  border: unset;
+}
+input {
+  outline: unset;
+}
+.ui.form .field {
+  margin: 0;
+}
+.ui.form .field > label {
+  margin: 0;
+}
+.MuiIconButton-root {
+  padding: 0;
+}
+.password_input {
+  position: relative;
+}
+.icon {
+  padding: 0;
+  position: absolute;
+  /* top: 110px; */
+  left: 270px;
+  top: -28px;
+}
+.ui.form > p {
+  margin: 0;
+}
+[type="reset"],
+[type="submit"],
+button,
+html [type="button"] {
+  padding: 0;
+}
